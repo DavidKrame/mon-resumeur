@@ -1,0 +1,16 @@
+.containerOutputTextArea {
+    margin: 10px 10px 10px 10px;
+}
+.outputSummary {
+    resize: none;
+    border-radius: 13px;
+    padding : 12px 12px 12px 12px;
+    font-weight: bold;
+    font-style: normal;
+    overflow : auto;
+    outline: 1.5px solid;
+}
+
+.outputSummary:hover {
+    outline: 1.5px solid rgb(86, 151, 235);
+}

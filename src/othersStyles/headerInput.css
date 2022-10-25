@@ -1,0 +1,52 @@
+input[type = range] {
+    /* -webkit-appearance: none;
+    border-color: black;
+    border-radius: 25px;
+    height: 7px;
+    width: auto;
+    border: 2px solid #1e1e1f;
+    background-color: rgba(200, 200, 200, 0.5); */
+    cursor : pointer;
+}
+.headerInputRange {
+    margin: 10px 10px;
+    display: inline-flex;
+    width: 300px;
+}
+
+.headerInputRange label {
+   min-width: 100px;
+   margin: 10px 10px;
+}
+.divForValueInputRange {
+    margin: 10px 10px;
+    min-width: 50px;
+}
+
+.containerHeaderInput {
+    margin-top: 20px;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: .4em 9.3rem;
+    display: inline-flex;
+    align-items: stretch;
+    gap: 5rem;
+    width: 650px;
+}
+
+.btnResumer {
+    margin: 10px 10px;
+    transition-duration: 1s;
+    cursor: pointer;
+    background-color: rgb(86, 151, 235);
+    color: black;
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 20px;
+    width: 100px;
+    min-width: max-content;
+    max-height: 50px;
+}
+
+.btnResumer:hover {
+    background-color: rgb(61, 70, 169);
+}

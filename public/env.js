@@ -1,0 +1,3 @@
+window.env = {
+  "REACT_APP_API_KEY": "\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImtyYW1lZGF2aWRAZ21haWwuY29tIiwiZXhwIjoxNjY0MzY0MDQ4fQ._Hqn0XVy_b4jvgF5kYAGWsB6G0LX42fgGA3hGawsa58\";"
+};

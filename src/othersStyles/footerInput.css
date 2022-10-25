@@ -1,0 +1,65 @@
+.footerInputArea {
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0.2em 30rem;
+    display: inline-flex;
+    align-items: stretch;
+    gap: 3rem;
+    max-width: 650px;
+}
+
+.uploadInputBtnInternal {
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0em 0rem;
+    display: inline-flex;
+    align-items: stretch;
+    gap: 0.3rem
+}
+
+.containerUploadInputBtn {
+    position: relative;
+    padding: 4px;
+}
+
+.uploadInputBtn {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+}
+.uploadInputBtn:hover {
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.ContainerclearInputAreaBtn {
+    position: relative;
+}
+
+.uploadInputInput {
+    position: relative;
+    width: 60px;
+    z-index: 2;
+    opacity: 0;
+}
+
+.uploadInputInput:hover {
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.clearInputAreaBtn{
+    position: relative;
+    width: auto;
+    display: flex;
+    justify-self: end;
+}
+.clearInputAreaBtn:hover{
+    cursor: pointer;
+    border-radius: 5px;
+}

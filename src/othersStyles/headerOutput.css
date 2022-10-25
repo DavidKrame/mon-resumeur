@@ -1,0 +1,25 @@
+.containerHeaderOutput {
+    margin: 0 auto;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: .4em 22.8rem;
+    display: inline-flex;
+    align-items: stretch;
+    gap: 4rem;
+    max-width: 650px;
+}
+
+.btnEvaluation {
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: rgb(86, 151, 235);
+    color: black;
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 20px;
+    width: 100px;
+    min-width: max-content; 
+}
+
+.btnEvaluation:hover {
+    background-color: rgb(61, 70, 169);
+}

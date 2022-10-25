@@ -1,0 +1,22 @@
+.containerTextAreas{
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 5px;
+    padding: 5px;
+    width: 1350px; 
+}
+
+.containerForInput{
+    padding: 0px;
+    display: inline-block;
+    width: 650px;
+}
+
+.containerForOutput{
+    margin-top: 60px;
+    padding: 0px; 
+    display: inline-block; 
+    width: 650px; 
+}

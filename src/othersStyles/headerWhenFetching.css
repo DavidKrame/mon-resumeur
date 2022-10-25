@@ -1,0 +1,25 @@
+.containerHeaderWhenFetching {
+    margin: 20px 20px 20px 20px;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: .4em 25.3rem;
+    display: inline-flex;
+    align-items: stretch;
+    gap: 4rem
+}
+
+.btnAnnulation {
+    margin-top: 14px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    background-color: rgb(86, 151, 235);
+    color: black;
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 20px;
+    width: 100px;
+    min-width: max-content;
+}
+
+.btnAnnulation:hover {
+    background-color: rgb(61, 70, 169);
+}
