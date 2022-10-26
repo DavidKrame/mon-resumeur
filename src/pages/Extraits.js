@@ -22,7 +22,13 @@ export default function Extraits() {
     <div>
       {/* <h1>Extraits</h1>
       <HeaderWhenFetching /> */}
-      <RadioBtnExtraits />
+      <div className="headerInline">
+        <div className="textHeaderInline">
+          {" "}
+          <strong>Choisissez le type de synthèse :</strong>{" "}
+        </div>
+        <RadioBtnExtraits />
+      </div>
       <div className="containerTextAreas" id="containerTextAreas">
         <div className="containerForInput" id="containerForInput">
           <InputDataArea />

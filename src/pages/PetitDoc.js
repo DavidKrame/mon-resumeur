@@ -22,7 +22,13 @@ export default function PetitDoc() {
     <div>
       {/* <h1>Petits documents</h1> */}
       {/* <HeaderWhenFetching /> */}
-      <RadioBtnPetitDoc />
+      <div className="headerInline">
+        <div className="textHeaderInline">
+          {" "}
+          <strong>Choisissez le type de synthèse :</strong>{" "}
+        </div>
+        <RadioBtnPetitDoc />
+      </div>
       <div className="containerTextAreas" id="containerTextAreas">
         <div className="containerForInput" id="containerForInput">
           <InputDataArea />

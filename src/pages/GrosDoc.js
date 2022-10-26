@@ -22,7 +22,13 @@ export default function GrosDoc() {
     <div>
       {/* <h1>Gros documents</h1>
       <HeaderWhenFetching /> */}
-      <RadioBtnGrosDoc />
+      <div className="headerInline">
+        <div className="textHeaderInline">
+          {" "}
+          <strong>Choisissez le type de synthèse :</strong>{" "}
+        </div>
+        <RadioBtnGrosDoc />
+      </div>
       <div className="containerTextAreas" id="containerTextAreas">
         <div className="containerForInput" id="containerForInput">
           <InputDataArea />

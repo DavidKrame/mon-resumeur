@@ -1,3 +1,12 @@
+.headerInline{
+    display: inline-flex;
+    margin-top: 10px;
+}
+
+.textHeaderInline{
+    margin-top: 6px;
+}
+
 .containerTextAreas{
     margin: 0;
     display: grid;

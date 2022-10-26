@@ -22,7 +22,14 @@ export default function Surlignage() {
     <div>
       {/* <h1>Surlignage</h1>
       <HeaderWhenFetching /> */}
-      <RadioBtnSurlignage />
+      <div className="headerInline">
+        <div className="textHeaderInline">
+          {" "}
+          <strong>Choisissez le type de synthèse :</strong>{" "}
+        </div>
+        <RadioBtnSurlignage />
+      </div>
+
       <div className="containerTextAreas" id="containerTextAreas">
         <div className="containerForInput" id="containerForInput">
           <InputDataArea />
