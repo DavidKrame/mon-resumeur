@@ -31,12 +31,11 @@ export const API_KEY =
 // Vraie endpoint ici : /abstractive-experimental-BARTkrame
 // Le modèle que je vais uploader sur Hugging Face sera nommé krm/BARTkrame-abstract (DEJA FAIT!)
 
-export const ENDPOINT_GENSIM = "http://96.126.112.158:5000/extractive-gensim";
-export const ENDPOINT_BART_LARGE =
-  "http://96.126.112.158:5000/abstractive-large";
+export const ENDPOINT_GENSIM = "http://96.126.112.158/extractive-gensim";
+export const ENDPOINT_BART_LARGE = "http://96.126.112.158/abstractive-large";
 export const ENDPOINT_BART_VERY_LARGE =
-  "http://96.126.112.158:5000/abstractive-very-large";
-export const ENDPOINT_MERGE = "http://96.126.112.158:5000/extractive-merge";
+  "http://96.126.112.158/abstractive-very-large";
+export const ENDPOINT_MERGE = "http://96.126.112.158/extractive-merge";
 export const ENDPOINT_BARThez =
   "http://96.126.112.158:5000/abstractive-barthez";
 export const ENDPOINT_PEGASUS =
@@ -44,7 +43,7 @@ export const ENDPOINT_PEGASUS =
 
 export const ENDPOINT_BARTKrame =
   "http://96.126.112.158:5000/abstractive-experimental-bartkrame";
-export const ENDPOINT_EVALUATION = "http://96.126.112.158:5000/evaluation";
+export const ENDPOINT_EVALUATION = "http://96.126.112.158/evaluation";
 
 // Id des boutons radio (pourn ne pas se tromper en choisissant l'end-point de synthèse)
 
