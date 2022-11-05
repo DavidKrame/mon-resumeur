@@ -297,7 +297,7 @@ export default function BtnResumer() {
         );
       }}
     >
-      <strong>Rés</strong>
+      <strong>Résumer</strong>
     </button>
   );
 }
