@@ -57,4 +57,4 @@ export const ID_RADIO_BTN_BARTKrame = "experimental";
 export const EVALUATIONS = ["Very bad", "Bad", "Neutral", "Good", "Very good"];
 
 // Temps en microsecondes
-export const DEFAULT_TIMEOUT = 7200000;
+export const DEFAULT_TIMEOUT = 10000000;
