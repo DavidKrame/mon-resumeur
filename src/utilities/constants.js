@@ -28,8 +28,7 @@ export const API_KEY =
 //   "http://localhost:5000/abstractive-experimental-bartkrame";
 // export const ENDPOINT_EVALUATION = "http://localhost:5000/evaluation";
 
-// Vraie endpoint ici : /abstractive-experimental-BARTkrame
-// Le modèle que je vais uploader sur Hugging Face sera nommé krm/BARTkrame-abstract (DEJA FAIT!)
+// LES BARTkrame, BARThez,... ne marcheront pas à cause du PORT.
 
 export const ENDPOINT_GENSIM = "http://96.126.112.158/extractive-gensim";
 export const ENDPOINT_BART_LARGE = "http://96.126.112.158/abstractive-large";
