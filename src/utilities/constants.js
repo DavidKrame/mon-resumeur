@@ -15,8 +15,8 @@ export const MY_EXTRACT_DOCX_API_WITHOUT_LINE =
 
 //API DE SYNTHESE
 
-// export const API_KEY =
-//   "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImRhdmlkaGlsYmVydDY2NkBnbWFpbC5jb20iLCJleHAiOjE2NjkzMTcyMjR9.7yddu1der_gxcPVQPXlr7aa7I4T6jXlcLy_INbWvvXA";
+export const API_KEY =
+  "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImRhdmlkaGlsYmVydDY2NkBnbWFpbC5jb20iLCJleHAiOjE2NjkzMTcyMjR9.7yddu1der_gxcPVQPXlr7aa7I4T6jXlcLy_INbWvvXA";
 // export const ENDPOINT_GENSIM = "http://localhost:5000/extractive-gensim";
 // export const ENDPOINT_BART_LARGE = "http://localhost:5000/abstractive-large";
 // export const ENDPOINT_BART_VERY_LARGE =
